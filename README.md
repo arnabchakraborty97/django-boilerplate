@@ -19,7 +19,7 @@
 
 - git clone this project
     ```
-    git clone https://github.com/arnabchakraborty97/
+    git clone https://github.com/arnabchakraborty97/django-boilerplate.git
     ```
 - Initialise environment for the project 
      ```
