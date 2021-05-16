@@ -65,7 +65,7 @@
 
 - Rename the two folders with name "project" to your project name.
 - Put your project name in place of "project" in the follow lines
-    - Line 9 in [wsgi.py](./project/manage.py)
+    - Line 9 in [manage.py](./project/manage.py)
     - Line 14 in [wsgi.py](./project/project/wsgi.py)
     - Line 14 in [asgi.py](./project/project/asgi.py)
     - Line 63 and 82 in [settings.py](./project/project/settings.py)
