@@ -1,0 +1,9 @@
+*.pyc
+*.pyo
+.env
+db.sqlite3
+env/*
+static/media/*
+!static/media/README.md
+static/static-only/*
+!static/static-only/README.md
