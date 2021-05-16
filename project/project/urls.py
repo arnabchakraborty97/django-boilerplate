@@ -25,6 +25,12 @@ urlpatterns = [
     # admin/
     re_path(r'^admin/', admin.site.urls),
 
+    # dashboard/
+    re_path(r'^dashboard/', include('dashboard.urls', namespace='dashboard')),
+
+    # Redirect all other urls
+    re_path(r'^.*$', RedirectView.as_view(url=reverse_lazy('dashboard:index'))),
+
 ]
 
 #handler404 = 'dashboard.views.handle404'
